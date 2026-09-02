@@ -1,9 +1,100 @@
 # ARBA New Zealand KB (TC Reference)
 
-Interactive destination Knowledge Base for ARBA Travel's New Zealand Private Tour & Self Tour packages — served as `index.html`.
+Knowledge Base destinasi New Zealand untuk Travel Consultant ARBA — Private Tour (PT)
+dan Self Tour (ST). Disajikan sebagai `index.html`.
 
-**Live (once GitHub Pages is enabled):** `https://<user>.github.io/arba-newzealand-kb/`
+**Live:** https://prod-at22.github.io/arba-newzealand-kb/
 
-> Internal data notice: This is the FULL KB and includes internal pricing, 2026/2027 rate-card surcharges, and Free Gift promo codes. Published publicly by request — anyone with the URL can view it.
+> Nota data dalaman: ini KB PENUH — mengandungi harga dalaman, surcharge rate card
+> 2026/2027 dan kod promo Free Gift. Repo public: sesiapa yang ada URL boleh lihat.
 
-Built with the destination-kb-builder skill (v2 structure). To update: replace index.html, commit, push — Pages redeploys automatically.
+---
+
+## Fail dalam repo ini
+
+| Fail | Apa dia |
+|---|---|
+| `index.html` | KB penuh + tab **Simple Calculator** |
+| `calc-config.json` | **semua harga & kadar kalkulator** — PO edit fail ini |
+
+## Cara PO ubah harga sendiri
+
+Kalkulator membaca `calc-config.json` setiap kali halaman dibuka. Jadi untuk tukar
+harga, **jangan** minta bina semula KB — cukup edit JSON di sini:
+
+1. Buka `calc-config.json` → tekan ikon pensel (Edit this file).
+2. Ubah nombor yang perlu.
+3. Tekan **Commit changes** (terus ke `main`).
+4. Tunggu ~30 saat, refresh KB. Selesai.
+
+Kalau JSON rosak (koma tertinggal, kurungan tak tutup), KB **tidak** senyap — ia
+papar notis merah di atas kalkulator dan guna salinan lama yang terbenam dalam
+`index.html`. Betulkan JSON dan commit semula.
+
+### Medan mana nak diubah
+
+| Nak ubah | Cari medan |
+|---|---|
+| Harga pakej ikut bilangan pax | `variants[].tiers` — `from`/`to` = julat pax, `a` = adult, `c` = child with bed, `n` = child no bed |
+| Tarikh & kadar peak season | `peak.windows` — `["mula","tamat"]`; elemen ke-4 = % khusus tetingkap itu (contoh 20% Krismas) |
+| Add-on tempoh perjalanan 2027 | `extraSurcharge` |
+| Last-minute surcharge | `variants[].lastMinute` — `lt` = hari, `rate2` = 2 pax, `rate3` = 3 pax ke atas |
+| Single supplement | `variants[].single` |
+| Harga infant | `variants[].infant` |
+| Deposit | `deposit` |
+| Harga optional activity | `addons` — `["Nama", hargaDewasa, hargaKanak, "pax"]` |
+| Kadar transport hari tambahan | `variants[].ext.rates.day` |
+| Kadar tolak transport dari katalog | `variants[].ext.rates.dayDed` |
+| Kadar malam tambahan ikut kelas hotel | `variants[].ext.rates.nAirbnb` / `nMotel` / `n3air` / `n3cbd` / `n4cbd` / `n5cbd` |
+| Kadar tolak malam | `variants[].ext.rates.dedNight` / `dedNightCbd` / `nightShort` |
+| Sektor flight domestik | `variants[].ext.rates.fltaklchc` dan seterusnya |
+| Airport shuttle ST | `variants[].ext.rates.shuttle` (sehala) / `shuttle2` (pergi balik) |
+| Blok itinerary dalam dropdown | `library` |
+| Nota ikut saiz group | `paxNotes` |
+
+### Bentuk kadar
+
+```json
+{"from": 2, "to": 3, "normal": 2300, "peak": 2300}
+```
+
+`from`–`to` = **kapasiti kenderaan**, bukan bilangan pax tepat. Padanan ambil julat
+**pertama** yang muat, jadi rate sheet yang bertindih (2–3, 3–4, 4–5, 5–6) berkelakuan
+betul: 3 pax → band 2–3, 4 pax → band 3–4, 5 pax → band 4–5, 6 pax → band 5–6.
+
+`"normal": null` bermaksud **kadar belum diisi** — kalkulator akan papar cip merah
+`kadar?` dan baris amaran, bukan RM 0. Ia sengaja begitu untuk kadar yang memang
+tiada dalam rate sheet. Isi nombor sebenar bila PO dah dapat dari operator.
+
+### Kawasan (region)
+
+New Zealand **tiada ProdReq**, jadi kadar ikut kawasan diambil dari rate sheet
+*Simple Customisation New Zealand* (lihat tab Simple Customisation dalam KB).
+
+| Kawasan | Meliputi |
+|---|---|
+| `[North Island]` | Auckland, Rotorua, Matamata, Taupo, Hamilton, Wellington |
+| `[South Island]` | Christchurch, Dunedin, Wanaka, Cromwell, Timaru, Omarama, Franz Josef |
+| `[Twizel/Te Anau/Queenstown]` | 3 lokasi ini sahaja — kadar hotel jauh lebih tinggi |
+
+- **PT** transport + driving guide: **satu kadar kebangsaan** (rate sheet tidak
+  bezakan pulau) — jadi ia duduk bawah `_default`.
+- **ST** kereta sewa: **berbeza North vs South** — jadi ia duduk bawah kawasan.
+
+## Yang PO kena tahu
+
+- Kadar malam tambahan ikut kelas hotel: rate sheet **hanya** siarkan lajur *peak*.
+  Untuk normal season kadarnya `null` (papar "kadar belum diisi"). Pilihan
+  *Malam tambahan (kadar pakej)* tetap guna kadar rata `variants[].ext.night`.
+- Lajur *Tolak 1 Night (Peak)* juga kosong dalam rate sheet — kalkulator guna kadar
+  normal untuk peak. Sahkan dengan operator kalau berbeza.
+- Kadar transport ST rate sheet setakat 5–6 pax. Untuk 7 pax ke atas kalkulator
+  darab dengan bilangan kereta dan papar nota supaya PO sahkan dahulu.
+
+---
+
+**Kalau minta Claude bina semula KB ini, sebut yang `calc-config.json` sudah diedit
+di GitHub** — supaya suntingan PO ditarik dahulu dan tidak ditimpa.
+
+Dibina dengan skill `kb-calculator` (baseline penuh Korea). Untuk kemas kini
+`index.html`: ganti fail, commit, push — GitHub Pages deploy sendiri.
