@@ -91,6 +91,34 @@ New Zealand **tiada ProdReq**, jadi kadar ikut kawasan diambil dari rate sheet
 - Kadar transport ST rate sheet setakat 5–6 pax. Untuk 7 pax ke atas kalkulator
   darab dengan bilangan kereta dan papar nota supaya PO sahkan dahulu.
 
+
+## Bagaimana quotation PDF dibina
+
+Bahagian **PROPOSED ITINERARY** dan **PACKAGE INCLUSIONS** dijana daripada itinerary
+yang TC bina, bukan teks tetap. Ini yang perlu PO tahu bila mengedit `calc-config.json`:
+
+| Medan | Kesan dalam PDF |
+|---|---|
+| `variants[].itin[].eact` | senarai butiran hari (Inggeris). **Jangan** letak aktiviti optional di sini &mdash; add-on yang customer benar-benar beli ditambah sendiri oleh enjin sebagai "... (optional activity)". Aktiviti optional untuk rujukan TC duduk dalam `act` (Melayu). |
+| `trpOptions[].lbl` &middot; `accOptions[].hotel` | teks lajur Transport / Accommodation |
+| `trpOptions[].incl` &middot; `accOptions[].incl` | baris **Inclusions** yang dijana; `{days}` diganti dengan hari yang benar-benar guna pilihan itu |
+| `"{auto}"` dalam `variants[].inclusions` | tempat baris dijana itu disisipkan |
+| `line` | label baris dalam jadual harga & baris "Price per pax already includes" |
+
+Sebab ia dijana: bila TC tolak driving guide pada satu hari, baris inclusions
+turut gugurkan hari itu sendiri &mdash; PDF tidak lagi menjanjikan sesuatu yang
+sudah ditolak daripada harga. Hari flight domestik berlabel **Domestic Flight**
+(bukan Airport Transfer), dan malam tambahan memaparkan kelas hotel sebenar
+(contoh "5-Star Hotel (CBD)"), bukan kelas hotel pakej.
+
+**Had yang masih ada:** enjin menjana inclusions daripada pilihan **Transport**
+dan **Accommodation** sahaja, belum daripada **Meal**. Jadi bila TC guna
+*tolak Welcome Meal* atau *tolak lunch Salmon Farm*, baris
+"Welcome Lunch 1x & lunch at High Country Salmon Farm" masih kekal dalam
+Inclusions &mdash; tolakan itu tetap kelihatan dalam baris
+"Price per pax already includes", tetapi sahkan dengan customer secara manual
+sehingga ini diperbaiki.
+
 ---
 
 **Kalau minta Claude bina semula KB ini, sebut yang `calc-config.json` sudah diedit

@@ -119,7 +119,6 @@
      ],
      "eact": [
       "Transfer to Matamata (2 hours)",
-      "Hobbiton Movie Set Tour (optional)",
       "Redwood Forest Rotorua",
       "Check-in hotel in Rotorua"
      ]
@@ -139,8 +138,7 @@
       "Transfer & check-in hotel Hamilton"
      ],
      "eact": [
-      "Whakarewarewa Maori Village Tour (optional)",
-      "Huka Falls & Huka Jet (optional)",
+      "Huka Falls",
       "Lake Taupo",
       "Transfer & check-in hotel in Hamilton"
      ]
@@ -151,7 +149,7 @@
      "en": "HAMILTON - AUCKLAND - CHRISTCHURCH",
      "acc": "incl",
      "meal": "b",
-     "trp": "air",
+     "trp": "dom",
      "region": "[South Island]",
      "act": [
       "Flight domestik AKL-CHC",
@@ -219,12 +217,13 @@
      "trp": "incl",
      "region": "[Twizel/Te Anau/Queenstown]",
      "act": [
+      "Transfer ke Milford Sound",
       "Milford Sound Cruise (optional)",
       "Mirror Lake, Eglinton Valley, The Chasm",
       "Transfer & check-in hotel Queenstown"
      ],
      "eact": [
-      "Milford Sound Cruise (optional)",
+      "Transfer to Milford Sound",
       "Mirror Lake, Eglinton Valley, The Chasm",
       "Transfer & check-in hotel in Queenstown"
      ]
@@ -244,7 +243,6 @@
      ],
      "eact": [
       "Glenorchy Wharf & View Point",
-      "Skyline Gondola Queenstown (optional)",
       "Queenstown Central Shopping Area"
      ]
     },
@@ -254,7 +252,7 @@
      "en": "QUEENSTOWN - ARROWTOWN - AUCKLAND",
      "acc": "incl",
      "meal": "b",
-     "trp": "air",
+     "trp": "dom",
      "region": "[North Island]",
      "act": [
       "Lower Shotover Bridge",
@@ -291,13 +289,8 @@
    ],
    "inclusions": [
     "{nights} nights accommodation (3-Star Hotel / Motel)",
-    "Private transport with Malay / English speaking driver-guide",
-    "Private airport transfer",
-    "Domestic flights AKL-CHC & ZQN-AKL including 20kg baggage",
-    "Tipping for driver-guide",
-    "Fuel & parking fees",
-    "Welcome Lunch 1x",
-    "High Country Salmon Farm visit",
+    "{auto}",
+    "Welcome Lunch 1x & lunch at High Country Salmon Farm",
     "Free NZeTA application 1x (Malaysian passport holders only)"
    ],
    "exclusions": [
@@ -904,7 +897,6 @@
      ],
      "eact": [
       "Transfer to Milford Sound",
-      "Milford Sound Cruise (optional)",
       "Eglinton Valley & Mirror Lake",
       "Check-in hotel in Queenstown"
      ]
@@ -943,9 +935,7 @@
       "Check-in hotel Dunedin"
      ],
      "eact": [
-      "Skyline Gondola Queenstown (optional)",
       "Transfer to Dunedin",
-      "Larnach Castle (optional)",
       "Check-in hotel in Dunedin"
      ]
     },
@@ -992,12 +982,8 @@
    ],
    "inclusions": [
     "{nights} nights accommodation (3-Star Hotel / Motel)",
-    "Private transport with Malay / English speaking driver-guide",
-    "Private airport transfer",
-    "Tipping for driver-guide",
-    "Fuel & parking fees",
-    "Welcome Lunch 1x",
-    "High Country Salmon Farm visit",
+    "{auto}",
+    "Welcome Lunch 1x & lunch at High Country Salmon Farm",
     "Free NZeTA application 1x (Malaysian passport holders only)"
    ],
    "exclusions": [
@@ -1517,7 +1503,7 @@
      "en": "AUCKLAND ARRIVAL",
      "acc": "incl",
      "meal": "none",
-     "trp": "air",
+     "trp": "carpick",
      "region": "[North Island]",
      "act": [
       "Tiba di Auckland Airport, pickup & safety car briefing",
@@ -1547,7 +1533,6 @@
      ],
      "eact": [
       "Drive to Matamata (3 hours)",
-      "Hobbiton Movie Set Tour (optional)",
       "Putaruru Blue Springs",
       "Redwood Forest",
       "Check-in hotel in Rotorua"
@@ -1568,7 +1553,6 @@
       "Check-in hotel Hamilton"
      ],
      "eact": [
-      "Whakarewarewa Maori Village Tour (optional)",
       "Huka Falls & Lake Taupo",
       "Hamilton Garden",
       "Check-in hotel in Hamilton"
@@ -1580,7 +1564,7 @@
      "en": "HAMILTON - AUCKLAND - CHRISTCHURCH",
      "acc": "incl",
      "meal": "b",
-     "trp": "air",
+     "trp": "dom",
      "region": "[South Island]",
      "act": [
       "Flight domestik AKL-CHC",
@@ -1659,9 +1643,7 @@
      ],
      "eact": [
       "Drive to Milford Sound (2 hours)",
-      "Milford Sound Cruise (optional)",
-      "Drive to Queenstown (4 hours)",
-      "Skyline Gondola (optional)"
+      "Drive to Queenstown (4 hours)"
      ]
     },
     {
@@ -1670,7 +1652,7 @@
      "en": "QUEENSTOWN - AUCKLAND",
      "acc": "incl",
      "meal": "b",
-     "trp": "air",
+     "trp": "dom",
      "region": "[North Island]",
      "act": [
       "Central Shopping Area Queenstown",
@@ -1706,12 +1688,9 @@
     }
    ],
    "inclusions": [
-    "MPV car rental with GPS",
-    "Comprehensive full car insurance",
-    "24/7 roadside assistance",
+    "{auto}",
     "{nights} nights accommodation (Hotel / Motel 3-4 Star)",
     "Online trip assistance & pre-trip consultation",
-    "Domestic flights AKL-CHC & ZQN-AKL including 20kg baggage",
     "NZeTA application 1x",
     "Halal food & restaurant guide"
    ],
@@ -2420,7 +2399,7 @@
      "en": "AUCKLAND ARRIVAL",
      "acc": "incl",
      "meal": "none",
-     "trp": "air",
+     "trp": "carpick",
      "region": "[North Island]",
      "act": [
       "Tiba di Auckland Airport, pickup & safety car briefing",
@@ -2450,7 +2429,6 @@
      ],
      "eact": [
       "Drive to Matamata (3 hours)",
-      "Hobbiton Movie Set Tour (optional)",
       "Putaruru Blue Springs",
       "Redwood Forest",
       "Check-in hotel in Rotorua"
@@ -2471,7 +2449,6 @@
       "Check-in hotel Hamilton"
      ],
      "eact": [
-      "Whakarewarewa Maori Village Tour (optional)",
       "Huka Falls & Lake Taupo",
       "Hamilton Garden",
       "Check-in hotel in Hamilton"
@@ -2483,7 +2460,7 @@
      "en": "HAMILTON - AUCKLAND - CHRISTCHURCH",
      "acc": "incl",
      "meal": "b",
-     "trp": "air",
+     "trp": "dom",
      "region": "[South Island]",
      "act": [
       "Flight domestik AKL-CHC",
@@ -2562,9 +2539,7 @@
      ],
      "eact": [
       "Drive to Milford Sound (2 hours)",
-      "Milford Sound Cruise (optional)",
-      "Drive to Queenstown (4 hours)",
-      "Skyline Gondola (optional)"
+      "Drive to Queenstown (4 hours)"
      ]
     },
     {
@@ -2573,7 +2548,7 @@
      "en": "QUEENSTOWN - AUCKLAND",
      "acc": "incl",
      "meal": "b",
-     "trp": "air",
+     "trp": "dom",
      "region": "[North Island]",
      "act": [
       "Central Shopping Area Queenstown",
@@ -2609,12 +2584,9 @@
     }
    ],
    "inclusions": [
-    "MPV car rental with GPS",
-    "Comprehensive full car insurance",
-    "24/7 roadside assistance",
+    "{auto}",
     "{nights} nights accommodation (Apartment / Airbnb with kitchen)",
     "Online trip assistance & pre-trip consultation",
-    "Domestic flights AKL-CHC & ZQN-AKL including 20kg baggage",
     "NZeTA application 1x",
     "Halal food & restaurant guide"
    ],
@@ -3330,7 +3302,7 @@
      "en": "AUCKLAND ARRIVAL",
      "acc": "incl",
      "meal": "none",
-     "trp": "air",
+     "trp": "carpick",
      "region": "[North Island]",
      "act": [
       "Tiba di Auckland Airport, pickup & briefing",
@@ -3361,8 +3333,6 @@
      "eact": [
       "Drive to Rotorua (3 hours)",
       "Redwood Forest",
-      "Whakarewarewa Maori Village Tour (optional)",
-      "Maori Culture Performance (optional)",
       "Check-in hotel in Rotorua"
      ]
     },
@@ -3383,8 +3353,6 @@
      ],
      "eact": [
       "Drive to Matamata (1 hour)",
-      "Hobbiton Movie Set Tour (optional)",
-      "Agrodome Farm & Animal Show (optional)",
       "Lake Rotorua",
       "Return to hotel in Rotorua"
      ]
@@ -3407,7 +3375,6 @@
      "eact": [
       "Drive to Taupo (1 hour)",
       "Lake Taupo",
-      "Taupo Cruise to Maori Carving (optional)",
       "Huka Falls",
       "Check-in hotel in Taupo"
      ]
@@ -3428,7 +3395,6 @@
      ],
      "eact": [
       "Drive to Hamilton (2 hours)",
-      "Hamilton Garden (optional)",
       "Drive to Auckland (2 hours)",
       "Free & easy, check-in hotel in Auckland"
      ]
@@ -3439,7 +3405,7 @@
      "en": "RETURN FLIGHT TO KUL",
      "acc": "none",
      "meal": "b",
-     "trp": "air",
+     "trp": "carpick",
      "region": "[North Island]",
      "act": [
       "Auckland City Tour",
@@ -3456,9 +3422,7 @@
     }
    ],
    "inclusions": [
-    "MPV car rental with GPS",
-    "Comprehensive full car insurance",
-    "24/7 roadside assistance (towing)",
+    "{auto}",
     "{nights} nights accommodation (3-Star Hotel / Motel)",
     "Online trip assistance & pre-trip consultation",
     "NZeTA application 1x",
@@ -4188,7 +4152,6 @@
    ],
    "eact": [
     "Transfer to Matamata (2-3 hours)",
-    "Hobbiton Movie Set Tour (optional)",
     "Putaruru Blue Springs",
     "Redwood Forest Rotorua",
     "Check-in hotel in Rotorua"
@@ -4210,8 +4173,6 @@
     "Lake Rotorua"
    ],
    "eact": [
-    "Whakarewarewa Living Maori Village Tour (optional)",
-    "Maori Culture Performance (optional)",
     "Redwood Forest",
     "Lake Rotorua"
    ]
@@ -4234,8 +4195,6 @@
    ],
    "eact": [
     "Drive to Matamata (1 hour)",
-    "Hobbiton Movie Set Tour (optional)",
-    "Agrodome Farm & Animal Show (optional)",
     "Lake Rotorua",
     "Return to hotel in Rotorua"
    ]
@@ -4259,7 +4218,6 @@
    "eact": [
     "Drive to Taupo (1 hour)",
     "Lake Taupo",
-    "Taupo Cruise to Maori Carving (optional)",
     "Huka Falls",
     "Check-in hotel in Taupo"
    ]
@@ -4281,10 +4239,8 @@
     "Check-in hotel Hamilton"
    ],
    "eact": [
-    "Whakarewarewa Maori Village Tour (optional)",
-    "Huka Falls & Huka Jet (optional)",
+    "Huka Falls",
     "Lake Taupo",
-    "Hamilton Garden (optional)",
     "Check-in hotel in Hamilton"
    ]
   },
@@ -4305,7 +4261,6 @@
    ],
    "eact": [
     "Drive to Hamilton (2 hours)",
-    "Hamilton Garden (optional)",
     "Drive to Auckland (2 hours)",
     "Check-in hotel in Auckland"
    ]
@@ -4337,7 +4292,7 @@
    "en": "AUCKLAND - CHRISTCHURCH",
    "acc": "incl",
    "meal": "b",
-   "trp": "air",
+   "trp": "dom",
    "region": "[South Island]",
    "act": [
     "Transfer ke Auckland Domestic Terminal",
@@ -4486,7 +4441,6 @@
     "Drive to Wanaka (2 hours)",
     "Lindis Pass photostop",
     "Lake Wanaka",
-    "Fruit picking in Cromwell (optional)",
     "Check-in hotel in Te Anau"
    ]
   },
@@ -4528,7 +4482,6 @@
    ],
    "eact": [
     "Transfer to Milford Sound (2 hours)",
-    "Milford Sound Cruise (optional)",
     "Mirror Lake, Eglinton Valley, The Chasm",
     "Transfer to Queenstown",
     "Check-in hotel in Queenstown"
@@ -4551,7 +4504,6 @@
    ],
    "eact": [
     "Transfer to Milford Sound (2 hours)",
-    "Milford Sound Cruise (optional)",
     "Mirror Lake & The Chasm",
     "Return to hotel in Te Anau"
    ]
@@ -4574,7 +4526,6 @@
    "eact": [
     "Queenstown Central Shopping Area",
     "Lake Wakatipu",
-    "Skyline Gondola Queenstown (optional)",
     "Rest at hotel"
    ]
   },
@@ -4596,7 +4547,6 @@
    "eact": [
     "Transfer to Glenorchy",
     "Glenorchy Wharf & View Point",
-    "Skyline Gondola Queenstown (optional)",
     "Queenstown Central Shopping Area"
    ]
   },
@@ -4618,7 +4568,6 @@
    "eact": [
     "Lower Shotover Bridge",
     "Arrowtown City",
-    "Shotover Jet (optional)",
     "Return to hotel in Queenstown"
    ]
   },
@@ -4629,7 +4578,7 @@
    "en": "QUEENSTOWN - ARROWTOWN - AUCKLAND",
    "acc": "incl",
    "meal": "b",
-   "trp": "air",
+   "trp": "dom",
    "region": "[North Island]",
    "act": [
     "Lower Shotover Bridge",
@@ -4660,9 +4609,7 @@
     "Check-in hotel Dunedin"
    ],
    "eact": [
-    "Skyline Gondola Queenstown (optional)",
     "Transfer to Dunedin",
-    "Larnach Castle (optional)",
     "Check-in hotel in Dunedin"
    ]
   },
@@ -4856,49 +4803,64 @@
   {
    "v": "extra",
    "t": "Malam tambahan (kadar pakej)",
-   "cost": "night"
+   "cost": "night",
+   "incl": "Additional night at package accommodation ({days})"
   },
   {
    "v": "nAirbnb",
    "t": "Malam tambahan &mdash; Airbnb (double / triple bed)",
    "cost": "night",
-   "nightRate": "nAirbnb"
+   "nightRate": "nAirbnb",
+   "hotel": "Airbnb (Double / Triple)",
+   "incl": "Additional night - Airbnb double/triple bed ({days})"
   },
   {
    "v": "nAirbnb2",
    "t": "Malam tambahan &mdash; Airbnb (two / three bedroom)",
    "cost": "night",
-   "nightRate": "nAirbnb2"
+   "nightRate": "nAirbnb2",
+   "hotel": "Airbnb (2-3 Bedroom)",
+   "incl": "Additional night - Airbnb 2-3 bedroom ({days})"
   },
   {
    "v": "nMotel",
    "t": "Malam tambahan &mdash; Motel (double / triple bed)",
    "cost": "night",
-   "nightRate": "nMotel"
+   "nightRate": "nMotel",
+   "hotel": "Motel (Double / Triple)",
+   "incl": "Additional night - motel double/triple bed ({days})"
   },
   {
    "v": "n3air",
    "t": "Malam tambahan &mdash; Hotel 3 bintang (dekat airport)",
    "cost": "night",
-   "nightRate": "n3air"
+   "nightRate": "n3air",
+   "hotel": "3-Star Hotel (near airport)",
+   "incl": "Additional night - 3-star hotel near airport ({days})"
   },
   {
    "v": "n3cbd",
    "t": "Malam tambahan &mdash; Hotel 3 bintang (CBD)",
    "cost": "night",
-   "nightRate": "n3cbd"
+   "nightRate": "n3cbd",
+   "hotel": "3-Star Hotel (CBD)",
+   "incl": "Additional night - 3-star hotel in CBD ({days})"
   },
   {
    "v": "n4cbd",
    "t": "Malam tambahan &mdash; Hotel 4 bintang (CBD)",
    "cost": "night",
-   "nightRate": "n4cbd"
+   "nightRate": "n4cbd",
+   "hotel": "4-Star Hotel (CBD)",
+   "incl": "Additional night - 4-star hotel in CBD ({days})"
   },
   {
    "v": "n5cbd",
    "t": "Malam tambahan &mdash; Hotel 5 bintang (CBD)",
    "cost": "night",
-   "nightRate": "n5cbd"
+   "nightRate": "n5cbd",
+   "hotel": "5-Star Hotel (CBD)",
+   "incl": "Additional night - 5-star hotel in CBD ({days})"
   },
   {
    "v": "ded1",
@@ -5004,26 +4966,44 @@
    "t": "Private transport + driving guide (termasuk pakej)",
    "cost": "incl",
    "guided": true,
-   "lbl": "Private Transport + Driving Guide"
+   "lbl": "Private Transport + Driving Guide",
+   "incl": "Private transport with Malay / English speaking driving guide, incl. fuel, parking & tipping ({days})"
   },
   {
    "v": "sdrive",
    "t": "Self drive &mdash; kereta sewa (termasuk pakej)",
    "cost": "incl",
-   "lbl": "Self Drive - Rental Car"
+   "lbl": "Self Drive - Rental Car",
+   "incl": "MPV rental car with GPS, comprehensive insurance & 24/7 roadside assistance ({days})"
   },
   {
    "v": "air",
-   "t": "Airport transfer / flight domestik (termasuk pakej)",
+   "t": "Airport transfer (termasuk pakej)",
    "cost": "incl",
-   "lbl": "Airport Transfer"
+   "lbl": "Airport Transfer",
+   "incl": "Private airport transfer ({days})"
+  },
+  {
+   "v": "carpick",
+   "t": "Ambil / pulang kereta sewa di airport (termasuk pakej)",
+   "cost": "incl",
+   "lbl": "Car Pickup / Return",
+   "incl": "Rental car pickup & return at airport ({days})"
+  },
+  {
+   "v": "dom",
+   "t": "Flight domestik (termasuk pakej)",
+   "cost": "incl",
+   "lbl": "Domestic Flight",
+   "incl": "Domestic flight incl. 20kg checked baggage ({days})"
   },
   {
    "v": "ext",
    "t": "Hari tambahan &mdash; transport (PT: + driving guide &middot; ST: kereta sewa)",
    "cost": "day",
    "guided": true,
-   "lbl": "Extension Day Transport"
+   "lbl": "Extension Day Transport",
+   "incl": "Extension day transport with driving guide, incl. fuel & parking ({days})"
   },
   {
    "v": "ded",
@@ -5039,7 +5019,8 @@
    "cost": "zero",
    "perVehicleRate": "day1way",
    "lbl": "Rental Car (one way)",
-   "line": "Rental car - one way CHC/ZQN"
+   "line": "Rental car - one way CHC/ZQN",
+   "incl": "One-way rental car Christchurch / Queenstown ({days})"
   },
   {
    "v": "shut1",
@@ -5047,7 +5028,8 @@
    "cost": "zero",
    "perPaxRate": "shuttle",
    "lbl": "Private Airport Shuttle",
-   "line": "Private airport shuttle (one way)"
+   "line": "Private airport shuttle (one way)",
+   "incl": "Private airport shuttle, one way ({days})"
   },
   {
    "v": "shut2",
@@ -5055,47 +5037,53 @@
    "cost": "zero",
    "perPaxRate": "shuttle2",
    "lbl": "Private Airport Shuttle",
-   "line": "Private airport shuttle (return)"
+   "line": "Private airport shuttle (return)",
+   "incl": "Private airport shuttle, return ({days})"
   },
   {
    "v": "fltaklchc",
    "t": "Tambah sektor flight domestik AKL &rarr; CHC",
    "cost": "zero",
    "perPaxRate": "fltaklchc",
-   "lbl": "Domestic Flight",
-   "line": "Domestic flight AKL-CHC"
+   "lbl": "Domestic Flight AKL - CHC",
+   "line": "Domestic flight AKL - CHC",
+   "incl": "Additional domestic flight AKL - CHC incl. 20kg baggage ({days})"
   },
   {
    "v": "fltchcakl",
    "t": "Tambah sektor flight domestik CHC &rarr; AKL",
    "cost": "zero",
    "perPaxRate": "fltchcakl",
-   "lbl": "Domestic Flight",
-   "line": "Domestic flight CHC-AKL"
+   "lbl": "Domestic Flight CHC - AKL",
+   "line": "Domestic flight CHC - AKL",
+   "incl": "Additional domestic flight CHC - AKL incl. 20kg baggage ({days})"
   },
   {
    "v": "fltaklzqn",
    "t": "Tambah sektor flight domestik AKL &rarr; ZQN",
    "cost": "zero",
    "perPaxRate": "fltaklzqn",
-   "lbl": "Domestic Flight",
-   "line": "Domestic flight AKL-ZQN"
+   "lbl": "Domestic Flight AKL - ZQN",
+   "line": "Domestic flight AKL - ZQN",
+   "incl": "Additional domestic flight AKL - ZQN incl. 20kg baggage ({days})"
   },
   {
    "v": "fltzqnakl",
    "t": "Tambah sektor flight domestik ZQN &rarr; AKL",
    "cost": "zero",
    "perPaxRate": "fltzqnakl",
-   "lbl": "Domestic Flight",
-   "line": "Domestic flight ZQN-AKL"
+   "lbl": "Domestic Flight ZQN - AKL",
+   "line": "Domestic flight ZQN - AKL",
+   "incl": "Additional domestic flight ZQN - AKL incl. 20kg baggage ({days})"
   },
   {
    "v": "fltzqnchc",
    "t": "Tambah sektor flight domestik ZQN &rarr; CHC",
    "cost": "zero",
    "perPaxRate": "fltzqnchc",
-   "lbl": "Domestic Flight",
-   "line": "Domestic flight ZQN-CHC"
+   "lbl": "Domestic Flight ZQN - CHC",
+   "line": "Domestic flight ZQN - CHC",
+   "incl": "Additional domestic flight ZQN - CHC incl. 20kg baggage ({days})"
   },
   {
    "v": "fltded",
