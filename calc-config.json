@@ -89,7 +89,7 @@
      "acc": "incl",
      "meal": "l",
      "trp": "air",
-     "region": "[North Island]",
+     "region": "[Auckland]",
      "act": [
       "Tiba di Auckland Airport, meet & greet ARBA guide",
       "Welcome Lunch dari ARBA",
@@ -108,9 +108,9 @@
      "t": "Auckland - Rotorua",
      "en": "AUCKLAND - ROTORUA",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "incl",
-     "region": "[North Island]",
+     "region": "[Rotorua]",
      "act": [
       "Transfer ke Matamata (2 jam)",
       "Hobbiton Movie Set Tour (optional)",
@@ -128,9 +128,9 @@
      "t": "Rotorua - Taupo - Hamilton",
      "en": "ROTORUA - TAUPO - HAMILTON",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "incl",
-     "region": "[North Island]",
+     "region": "[Hamilton]",
      "act": [
       "Whakarewarewa Maori Village Tour (optional)",
       "Huka Falls & Huka Jet (optional)",
@@ -148,9 +148,9 @@
      "t": "Hamilton - Auckland - Christchurch",
      "en": "HAMILTON - AUCKLAND - CHRISTCHURCH",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "dom",
-     "region": "[South Island]",
+     "region": "[Christchurch]",
      "act": [
       "Flight domestik AKL-CHC",
       "Riverside Market",
@@ -169,9 +169,9 @@
      "t": "Christchurch - Tekapo - Twizel",
      "en": "CHRISTCHURCH - TEKAPO - TWIZEL",
      "acc": "incl",
-     "meal": "bl",
+     "meal": "l",
      "trp": "incl",
-     "region": "[Twizel/Te Anau/Queenstown]",
+     "region": "[Twizel]",
      "act": [
       "Transfer ke Tekapo (3 jam)",
       "Lake Tekapo & Lake Pukaki",
@@ -190,9 +190,9 @@
      "t": "Twizel - Mt Cook - Te Anau",
      "en": "TWIZEL - MT COOK - TE ANAU",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "incl",
-     "region": "[Twizel/Te Anau/Queenstown]",
+     "region": "[Te Anau]",
      "act": [
       "Hooker Valley Track",
       "Aoraki Mt Cook & Information Centre",
@@ -213,9 +213,9 @@
      "t": "Te Anau - Milford Sound - Queenstown",
      "en": "TE ANAU - MILFORD SOUND - QUEENSTOWN",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "incl",
-     "region": "[Twizel/Te Anau/Queenstown]",
+     "region": "[Queenstown]",
      "act": [
       "Transfer ke Milford Sound",
       "Milford Sound Cruise (optional)",
@@ -233,9 +233,9 @@
      "t": "Queenstown - Glenorchy",
      "en": "QUEENSTOWN - GLENORCHY",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "incl",
-     "region": "[Twizel/Te Anau/Queenstown]",
+     "region": "[Queenstown]",
      "act": [
       "Glenorchy Wharf & View Point",
       "Skyline Gondola Queenstown (optional)",
@@ -251,9 +251,9 @@
      "t": "Queenstown - Arrowtown - Auckland",
      "en": "QUEENSTOWN - ARROWTOWN - AUCKLAND",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "dom",
-     "region": "[North Island]",
+     "region": "[Auckland]",
      "act": [
       "Lower Shotover Bridge",
       "Arrowtown",
@@ -272,9 +272,9 @@
      "t": "Return flight ke KUL",
      "en": "RETURN FLIGHT TO KUL",
      "acc": "none",
-     "meal": "b",
+     "meal": "none",
      "trp": "air",
-     "region": "[North Island]",
+     "region": "[Auckland]",
      "act": [
       "Transfer ke Auckland International Airport",
       "Flight antarabangsa AKL-KUL",
@@ -295,6 +295,7 @@
    ],
    "exclusions": [
     "International flight tickets (KUL-AKL-KUL)",
+    "Breakfast",
     "Optional activities",
     "Personal travel insurance",
     "Internet / roaming",
@@ -315,6 +316,126 @@
     "paxPerVehicle": 10,
     "rates": {
      "nAirbnb": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 400
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 400
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 400
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -341,6 +462,126 @@
       ]
      },
      "nAirbnb2": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -367,6 +608,126 @@
       ]
      },
      "nMotel": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -393,6 +754,126 @@
       ]
      },
      "n3air": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -419,6 +900,126 @@
       ]
      },
      "n3cbd": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 700
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 700
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 700
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -445,6 +1046,126 @@
       ]
      },
      "n4cbd": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 800
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 800
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 800
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -471,6 +1192,126 @@
       ]
      },
      "n5cbd": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 2000
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 2000
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 2000
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -497,6 +1338,126 @@
       ]
      },
      "dedNight": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -523,6 +1484,126 @@
       ]
      },
      "dedNightCbd": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -825,7 +1906,7 @@
      "acc": "incl",
      "meal": "l",
      "trp": "air",
-     "region": "[South Island]",
+     "region": "[Christchurch]",
      "act": [
       "Tiba di Christchurch Airport, meet & greet driver guide",
       "Welcome Lunch dari ARBA",
@@ -844,9 +1925,9 @@
      "t": "Christchurch - Lake Tekapo - Twizel",
      "en": "CHRISTCHURCH - LAKE TEKAPO - TWIZEL",
      "acc": "incl",
-     "meal": "bl",
+     "meal": "l",
      "trp": "incl",
-     "region": "[Twizel/Te Anau/Queenstown]",
+     "region": "[Twizel]",
      "act": [
       "Transfer ke Tekapo",
       "Lake Tekapo & Lake Pukaki",
@@ -867,9 +1948,9 @@
      "t": "Tekapo - Wanaka - Te Anau",
      "en": "TEKAPO - WANAKA - TE ANAU",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "incl",
-     "region": "[Twizel/Te Anau/Queenstown]",
+     "region": "[Te Anau]",
      "act": [
       "Transfer ke Wanaka",
       "Lake Wanaka",
@@ -886,9 +1967,9 @@
      "t": "Te Anau - Milford Sound - Queenstown",
      "en": "TE ANAU - MILFORD SOUND - QUEENSTOWN",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "incl",
-     "region": "[Twizel/Te Anau/Queenstown]",
+     "region": "[Queenstown]",
      "act": [
       "Transfer ke Milford Sound",
       "Milford Sound Cruise (optional)",
@@ -906,9 +1987,9 @@
      "t": "Queenstown City Tour",
      "en": "QUEENSTOWN CITY TOUR",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "incl",
-     "region": "[Twizel/Te Anau/Queenstown]",
+     "region": "[Queenstown]",
      "act": [
       "Glenorchy Wharf & View Point",
       "Queenstown Central Shopping Area",
@@ -925,9 +2006,9 @@
      "t": "Queenstown - Dunedin",
      "en": "QUEENSTOWN - DUNEDIN",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "incl",
-     "region": "[South Island]",
+     "region": "[Dunedin]",
      "act": [
       "Skyline Gondola Queenstown (optional)",
       "Transfer ke Dunedin",
@@ -944,9 +2025,9 @@
      "t": "Dunedin - Timaru - Christchurch",
      "en": "DUNEDIN - TIMARU - CHRISTCHURCH",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "incl",
-     "region": "[South Island]",
+     "region": "[Christchurch]",
      "act": [
       "Transfer ke Timaru",
       "Caroline Bay Beach",
@@ -965,9 +2046,9 @@
      "t": "Airport transfer Christchurch",
      "en": "CHRISTCHURCH DEPARTURE",
      "acc": "none",
-     "meal": "b",
+     "meal": "none",
      "trp": "air",
-     "region": "[South Island]",
+     "region": "[Christchurch]",
      "act": [
       "Transfer ke Christchurch Airport",
       "Airport drop off",
@@ -988,6 +2069,7 @@
    ],
    "exclusions": [
     "International flight tickets (KUL-AKL-KUL)",
+    "Breakfast",
     "Optional activities",
     "Personal travel insurance",
     "Internet / roaming",
@@ -1008,6 +2090,126 @@
     "paxPerVehicle": 10,
     "rates": {
      "nAirbnb": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 400
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 400
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 400
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -1034,6 +2236,126 @@
       ]
      },
      "nAirbnb2": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -1060,6 +2382,126 @@
       ]
      },
      "nMotel": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -1086,6 +2528,126 @@
       ]
      },
      "n3air": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -1112,6 +2674,126 @@
       ]
      },
      "n3cbd": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 700
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 700
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 700
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -1138,6 +2820,126 @@
       ]
      },
      "n4cbd": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 800
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 800
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 800
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -1164,6 +2966,126 @@
       ]
      },
      "n5cbd": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 2000
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 2000
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 2000
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -1190,6 +3112,126 @@
       ]
      },
      "dedNight": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -1216,6 +3258,126 @@
       ]
      },
      "dedNightCbd": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -1504,7 +3666,7 @@
      "acc": "incl",
      "meal": "none",
      "trp": "carpick",
-     "region": "[North Island]",
+     "region": "[Auckland]",
      "act": [
       "Tiba di Auckland Airport, pickup & safety car briefing",
       "Check-in hotel dekat Auckland",
@@ -1521,9 +3683,9 @@
      "t": "Auckland - Rotorua",
      "en": "AUCKLAND - ROTORUA",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "sdrive",
-     "region": "[North Island]",
+     "region": "[Rotorua]",
      "act": [
       "Transfer ke Matamata (3 jam)",
       "Hobbiton Movie Set Tour (optional)",
@@ -1543,9 +3705,9 @@
      "t": "Rotorua - Taupo - Hamilton",
      "en": "ROTORUA - TAUPO - HAMILTON",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "sdrive",
-     "region": "[North Island]",
+     "region": "[Hamilton]",
      "act": [
       "Whakarewarewa Maori Village Tour (optional)",
       "Huka Falls & Lake Taupo",
@@ -1563,9 +3725,9 @@
      "t": "Hamilton - Auckland - Christchurch",
      "en": "HAMILTON - AUCKLAND - CHRISTCHURCH",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "dom",
-     "region": "[South Island]",
+     "region": "[Christchurch]",
      "act": [
       "Flight domestik AKL-CHC",
       "Pickup kereta sewa di Christchurch",
@@ -1584,9 +3746,9 @@
      "t": "Christchurch - Tekapo - Twizel",
      "en": "CHRISTCHURCH - TEKAPO - TWIZEL",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "sdrive",
-     "region": "[Twizel/Te Anau/Queenstown]",
+     "region": "[Twizel]",
      "act": [
       "Transfer ke Tekapo (3 jam)",
       "Lake Tekapo & Lake Pukaki",
@@ -1609,9 +3771,9 @@
      "t": "Twizel - Cromwell - Te Anau",
      "en": "TWIZEL - CROMWELL - TE ANAU",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "sdrive",
-     "region": "[Twizel/Te Anau/Queenstown]",
+     "region": "[Te Anau]",
      "act": [
       "Transfer ke Wanaka (2 jam)",
       "Lindis Pass photostop",
@@ -1632,9 +3794,9 @@
      "t": "Te Anau - Milford Sound - Queenstown",
      "en": "TE ANAU - MILFORD SOUND - QUEENSTOWN",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "sdrive",
-     "region": "[Twizel/Te Anau/Queenstown]",
+     "region": "[Queenstown]",
      "act": [
       "Transfer ke Milford Sound (2 jam)",
       "Milford Sound Cruise (optional)",
@@ -1651,9 +3813,9 @@
      "t": "Queenstown - Auckland",
      "en": "QUEENSTOWN - AUCKLAND",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "dom",
-     "region": "[North Island]",
+     "region": "[Auckland]",
      "act": [
       "Central Shopping Area Queenstown",
       "Lake Wakatipu",
@@ -1672,9 +3834,9 @@
      "t": "Auckland - KUL",
      "en": "RETURN FLIGHT TO KUL",
      "acc": "none",
-     "meal": "b",
+     "meal": "none",
      "trp": "air",
-     "region": "[North Island]",
+     "region": "[Auckland]",
      "act": [
       "Transfer ke Auckland International Airport",
       "Flight antarabangsa AKL-KUL",
@@ -1696,6 +3858,7 @@
    ],
    "exclusions": [
     "International flight tickets & airport tax",
+    "Breakfast",
     "Optional activities",
     "Fuel, parking & traffic fines",
     "Personal travel insurance",
@@ -1716,6 +3879,126 @@
     "paxPerVehicle": 6,
     "rates": {
      "nAirbnb": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 400
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 400
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 400
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -1742,6 +4025,126 @@
       ]
      },
      "nAirbnb2": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -1768,6 +4171,126 @@
       ]
      },
      "nMotel": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -1794,6 +4317,126 @@
       ]
      },
      "n3air": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -1820,6 +4463,126 @@
       ]
      },
      "n3cbd": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 700
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 700
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 700
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -1846,6 +4609,126 @@
       ]
      },
      "n4cbd": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 800
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 800
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 800
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -1872,6 +4755,126 @@
       ]
      },
      "n5cbd": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 2000
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 2000
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 2000
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -1898,6 +4901,126 @@
       ]
      },
      "dedNight": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -1924,6 +5047,126 @@
       ]
      },
      "dedNightCbd": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -2080,6 +5323,396 @@
       ]
      },
      "day": {
+      "[Auckland]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 450,
+        "peak": 450
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 800,
+        "peak": 800
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1000,
+        "peak": 1000
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 450,
+        "peak": 450
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 800,
+        "peak": 800
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1000,
+        "peak": 1000
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 450,
+        "peak": 450
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 800,
+        "peak": 800
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1000,
+        "peak": 1000
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 450,
+        "peak": 450
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 800,
+        "peak": 800
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1000,
+        "peak": 1000
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 450,
+        "peak": 450
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 800,
+        "peak": 800
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1000,
+        "peak": 1000
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
       "[North Island]": [
        {
         "from": 2,
@@ -2160,6 +5793,396 @@
       ]
      },
      "dayDed": {
+      "[Auckland]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
       "[North Island]": [
        {
         "from": 2,
@@ -2400,7 +6423,7 @@
      "acc": "incl",
      "meal": "none",
      "trp": "carpick",
-     "region": "[North Island]",
+     "region": "[Auckland]",
      "act": [
       "Tiba di Auckland Airport, pickup & safety car briefing",
       "Check-in hotel dekat Auckland",
@@ -2417,9 +6440,9 @@
      "t": "Auckland - Rotorua",
      "en": "AUCKLAND - ROTORUA",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "sdrive",
-     "region": "[North Island]",
+     "region": "[Rotorua]",
      "act": [
       "Transfer ke Matamata (3 jam)",
       "Hobbiton Movie Set Tour (optional)",
@@ -2439,9 +6462,9 @@
      "t": "Rotorua - Taupo - Hamilton",
      "en": "ROTORUA - TAUPO - HAMILTON",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "sdrive",
-     "region": "[North Island]",
+     "region": "[Hamilton]",
      "act": [
       "Whakarewarewa Maori Village Tour (optional)",
       "Huka Falls & Lake Taupo",
@@ -2459,9 +6482,9 @@
      "t": "Hamilton - Auckland - Christchurch",
      "en": "HAMILTON - AUCKLAND - CHRISTCHURCH",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "dom",
-     "region": "[South Island]",
+     "region": "[Christchurch]",
      "act": [
       "Flight domestik AKL-CHC",
       "Pickup kereta sewa di Christchurch",
@@ -2480,9 +6503,9 @@
      "t": "Christchurch - Tekapo - Twizel",
      "en": "CHRISTCHURCH - TEKAPO - TWIZEL",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "sdrive",
-     "region": "[Twizel/Te Anau/Queenstown]",
+     "region": "[Twizel]",
      "act": [
       "Transfer ke Tekapo (3 jam)",
       "Lake Tekapo & Lake Pukaki",
@@ -2505,9 +6528,9 @@
      "t": "Twizel - Cromwell - Te Anau",
      "en": "TWIZEL - CROMWELL - TE ANAU",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "sdrive",
-     "region": "[Twizel/Te Anau/Queenstown]",
+     "region": "[Te Anau]",
      "act": [
       "Transfer ke Wanaka (2 jam)",
       "Lindis Pass photostop",
@@ -2528,9 +6551,9 @@
      "t": "Te Anau - Milford Sound - Queenstown",
      "en": "TE ANAU - MILFORD SOUND - QUEENSTOWN",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "sdrive",
-     "region": "[Twizel/Te Anau/Queenstown]",
+     "region": "[Queenstown]",
      "act": [
       "Transfer ke Milford Sound (2 jam)",
       "Milford Sound Cruise (optional)",
@@ -2547,9 +6570,9 @@
      "t": "Queenstown - Auckland",
      "en": "QUEENSTOWN - AUCKLAND",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "dom",
-     "region": "[North Island]",
+     "region": "[Auckland]",
      "act": [
       "Central Shopping Area Queenstown",
       "Lake Wakatipu",
@@ -2568,9 +6591,9 @@
      "t": "Auckland - KUL",
      "en": "RETURN FLIGHT TO KUL",
      "acc": "none",
-     "meal": "b",
+     "meal": "none",
      "trp": "air",
-     "region": "[North Island]",
+     "region": "[Auckland]",
      "act": [
       "Transfer ke Auckland International Airport",
       "Flight antarabangsa AKL-KUL",
@@ -2592,6 +6615,7 @@
    ],
    "exclusions": [
     "International flight tickets & airport tax",
+    "Breakfast",
     "Optional activities",
     "Fuel, parking & traffic fines",
     "Personal travel insurance",
@@ -2612,6 +6636,126 @@
     "paxPerVehicle": 6,
     "rates": {
      "nAirbnb": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 400
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 400
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 400
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -2638,6 +6782,126 @@
       ]
      },
      "nAirbnb2": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -2664,6 +6928,126 @@
       ]
      },
      "nMotel": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -2690,6 +7074,126 @@
       ]
      },
      "n3air": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -2716,6 +7220,126 @@
       ]
      },
      "n3cbd": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 700
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 700
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 700
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -2742,6 +7366,126 @@
       ]
      },
      "n4cbd": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 800
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 800
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 800
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -2768,6 +7512,126 @@
       ]
      },
      "n5cbd": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 2000
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 2000
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 2000
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -2794,6 +7658,126 @@
       ]
      },
      "dedNight": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -2820,6 +7804,126 @@
       ]
      },
      "dedNightCbd": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -2976,6 +8080,396 @@
       ]
      },
      "day": {
+      "[Auckland]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 450,
+        "peak": 450
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 800,
+        "peak": 800
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1000,
+        "peak": 1000
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 450,
+        "peak": 450
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 800,
+        "peak": 800
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1000,
+        "peak": 1000
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 450,
+        "peak": 450
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 800,
+        "peak": 800
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1000,
+        "peak": 1000
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 450,
+        "peak": 450
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 800,
+        "peak": 800
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1000,
+        "peak": 1000
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 450,
+        "peak": 450
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 800,
+        "peak": 800
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1000,
+        "peak": 1000
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
       "[North Island]": [
        {
         "from": 2,
@@ -3056,6 +8550,396 @@
       ]
      },
      "dayDed": {
+      "[Auckland]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
       "[North Island]": [
        {
         "from": 2,
@@ -3303,7 +9187,7 @@
      "acc": "incl",
      "meal": "none",
      "trp": "carpick",
-     "region": "[North Island]",
+     "region": "[Auckland]",
      "act": [
       "Tiba di Auckland Airport, pickup & briefing",
       "Check-in hotel dekat Auckland",
@@ -3320,9 +9204,9 @@
      "t": "Auckland - Rotorua",
      "en": "AUCKLAND - ROTORUA",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "sdrive",
-     "region": "[North Island]",
+     "region": "[Rotorua]",
      "act": [
       "Transfer ke Rotorua (3 jam)",
       "Redwood Forest",
@@ -3341,9 +9225,9 @@
      "t": "Rotorua - Matamata - Rotorua",
      "en": "ROTORUA - MATAMATA - ROTORUA",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "sdrive",
-     "region": "[North Island]",
+     "region": "[Rotorua]",
      "act": [
       "Transfer ke Matamata (1 jam)",
       "Hobbiton Movie Set Tour (optional)",
@@ -3362,9 +9246,9 @@
      "t": "Rotorua - Taupo",
      "en": "ROTORUA - TAUPO",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "sdrive",
-     "region": "[North Island]",
+     "region": "[Taupo]",
      "act": [
       "Transfer ke Taupo (1 jam)",
       "Lake Taupo",
@@ -3384,9 +9268,9 @@
      "t": "Taupo - Hamilton - Auckland",
      "en": "TAUPO - HAMILTON - AUCKLAND",
      "acc": "incl",
-     "meal": "b",
+     "meal": "none",
      "trp": "sdrive",
-     "region": "[North Island]",
+     "region": "[Auckland]",
      "act": [
       "Transfer ke Hamilton (2 jam)",
       "Hamilton Garden (optional)",
@@ -3404,9 +9288,9 @@
      "t": "Auckland - Return KUL",
      "en": "RETURN FLIGHT TO KUL",
      "acc": "none",
-     "meal": "b",
+     "meal": "none",
      "trp": "carpick",
-     "region": "[North Island]",
+     "region": "[Auckland]",
      "act": [
       "Auckland City Tour",
       "Pulang kereta sewa di Auckland Airport",
@@ -3430,6 +9314,7 @@
    ],
    "exclusions": [
     "International flight tickets & airport tax",
+    "Breakfast",
     "Optional activities",
     "Fuel, parking & traffic fines",
     "Personal travel insurance",
@@ -3450,6 +9335,126 @@
     "paxPerVehicle": 6,
     "rates": {
      "nAirbnb": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 300
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 280
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 400
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 400
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 400
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -3476,6 +9481,126 @@
       ]
      },
      "nAirbnb2": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -3502,6 +9627,126 @@
       ]
      },
      "nMotel": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -3528,6 +9773,126 @@
       ]
      },
      "n3air": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 350
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -3554,6 +9919,126 @@
       ]
      },
      "n3cbd": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 700
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 700
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 700
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -3580,6 +10065,126 @@
       ]
      },
      "n4cbd": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 450
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 500
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 800
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 800
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 800
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -3606,6 +10211,126 @@
       ]
      },
      "n5cbd": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 600
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 2000
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 2000
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": null,
+        "peak": 2000
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -3632,6 +10357,126 @@
       ]
      },
      "dedNight": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -150,
+        "peak": -150
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -3658,6 +10503,126 @@
       ]
      },
      "dedNightCbd": {
+      "[Auckland]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 1,
+        "to": 99,
+        "normal": -200,
+        "peak": -200
+       }
+      ],
       "[North Island]": [
        {
         "from": 1,
@@ -3814,6 +10779,396 @@
       ]
      },
      "day": {
+      "[Auckland]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 450,
+        "peak": 450
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 800,
+        "peak": 800
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1000,
+        "peak": 1000
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 450,
+        "peak": 450
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 800,
+        "peak": 800
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1000,
+        "peak": 1000
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 450,
+        "peak": 450
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 800,
+        "peak": 800
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1000,
+        "peak": 1000
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 450,
+        "peak": 450
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 800,
+        "peak": 800
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1000,
+        "peak": 1000
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 450,
+        "peak": 450
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 800,
+        "peak": 800
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1000,
+        "peak": 1000
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": 500,
+        "peak": 500
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": 600,
+        "peak": 600
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": 950,
+        "peak": 950
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": 1200,
+        "peak": 1200
+       }
+      ],
       "[North Island]": [
        {
         "from": 2,
@@ -3894,6 +11249,396 @@
       ]
      },
      "dayDed": {
+      "[Auckland]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Rotorua]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Hamilton]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Taupo]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Wellington]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Christchurch]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Dunedin]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Wanaka]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Cromwell]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Omarama]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Franz Josef]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Timaru]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Twizel]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Te Anau]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
+      "[Queenstown]": [
+       {
+        "from": 2,
+        "to": 3,
+        "normal": -300,
+        "peak": -300
+       },
+       {
+        "from": 3,
+        "to": 4,
+        "normal": -350,
+        "peak": -350
+       },
+       {
+        "from": 4,
+        "to": 5,
+        "normal": -500,
+        "peak": -500
+       },
+       {
+        "from": 5,
+        "to": 6,
+        "normal": -600,
+        "peak": -600
+       }
+      ],
       "[North Island]": [
        {
         "from": 2,
@@ -4082,7 +11827,7 @@
    "acc": "incl",
    "meal": "none",
    "trp": "air",
-   "region": "[North Island]",
+   "region": "[Auckland]",
    "act": [
     "Tiba di Auckland Airport, meet & greet",
     "Auckland Cornwall Park",
@@ -4100,9 +11845,9 @@
    "t": "Auckland City Tour",
    "en": "AUCKLAND CITY TOUR",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "incl",
-   "region": "[North Island]",
+   "region": "[Auckland]",
    "act": [
     "Auckland Cornwall Park",
     "Westhaven Marina",
@@ -4120,9 +11865,9 @@
    "t": "Auckland - Return flight KUL",
    "en": "RETURN FLIGHT TO KUL",
    "acc": "none",
-   "meal": "b",
+   "meal": "none",
    "trp": "air",
-   "region": "[North Island]",
+   "region": "[Auckland]",
    "act": [
     "Transfer ke Auckland International Airport",
     "Flight antarabangsa AKL-KUL",
@@ -4140,9 +11885,9 @@
    "t": "Auckland - Matamata - Rotorua",
    "en": "AUCKLAND - MATAMATA - ROTORUA",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "incl",
-   "region": "[North Island]",
+   "region": "[Rotorua]",
    "act": [
     "Transfer ke Matamata (2-3 jam)",
     "Hobbiton Movie Set Tour (optional)",
@@ -4163,9 +11908,9 @@
    "t": "Rotorua - Whakarewarewa & Redwood",
    "en": "ROTORUA CITY",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "incl",
-   "region": "[North Island]",
+   "region": "[Rotorua]",
    "act": [
     "Whakarewarewa Living Maori Village Tour (optional)",
     "Maori Culture Performance (optional)",
@@ -4183,9 +11928,9 @@
    "t": "Rotorua - Matamata - Rotorua",
    "en": "ROTORUA - MATAMATA - ROTORUA",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "incl",
-   "region": "[North Island]",
+   "region": "[Rotorua]",
    "act": [
     "Transfer ke Matamata (1 jam)",
     "Hobbiton Movie Set Tour (optional)",
@@ -4205,9 +11950,9 @@
    "t": "Rotorua - Taupo",
    "en": "ROTORUA - TAUPO",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "incl",
-   "region": "[North Island]",
+   "region": "[Taupo]",
    "act": [
     "Transfer ke Taupo (1 jam)",
     "Lake Taupo",
@@ -4228,9 +11973,9 @@
    "t": "Rotorua - Taupo - Hamilton",
    "en": "ROTORUA - TAUPO - HAMILTON",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "incl",
-   "region": "[North Island]",
+   "region": "[Hamilton]",
    "act": [
     "Whakarewarewa Maori Village Tour (optional)",
     "Huka Falls & Huka Jet (optional)",
@@ -4250,9 +11995,9 @@
    "t": "Taupo - Hamilton - Auckland",
    "en": "TAUPO - HAMILTON - AUCKLAND",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "incl",
-   "region": "[North Island]",
+   "region": "[Auckland]",
    "act": [
     "Transfer ke Hamilton (2 jam)",
     "Hamilton Garden (optional)",
@@ -4273,7 +12018,7 @@
    "acc": "incl",
    "meal": "none",
    "trp": "air",
-   "region": "[South Island]",
+   "region": "[Christchurch]",
    "act": [
     "Tiba di Christchurch Airport, meet & greet",
     "Riverside Market",
@@ -4291,9 +12036,9 @@
    "t": "Auckland - Christchurch (flight domestik)",
    "en": "AUCKLAND - CHRISTCHURCH",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "dom",
-   "region": "[South Island]",
+   "region": "[Christchurch]",
    "act": [
     "Transfer ke Auckland Domestic Terminal",
     "Flight domestik AKL-CHC",
@@ -4315,9 +12060,9 @@
    "t": "Christchurch City",
    "en": "CHRISTCHURCH CITY",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "incl",
-   "region": "[South Island]",
+   "region": "[Christchurch]",
    "act": [
     "Riverside Market",
     "Masjid An Noor",
@@ -4335,9 +12080,9 @@
    "t": "Christchurch - airport transfer / return",
    "en": "CHRISTCHURCH DEPARTURE",
    "acc": "none",
-   "meal": "b",
+   "meal": "none",
    "trp": "air",
-   "region": "[South Island]",
+   "region": "[Christchurch]",
    "act": [
     "Transfer ke Christchurch Airport",
     "Airport drop off",
@@ -4355,9 +12100,9 @@
    "t": "Christchurch - Tekapo - Twizel",
    "en": "CHRISTCHURCH - TEKAPO - TWIZEL",
    "acc": "incl",
-   "meal": "bl",
+   "meal": "l",
    "trp": "incl",
-   "region": "[Twizel/Te Anau/Queenstown]",
+   "region": "[Twizel]",
    "act": [
     "Transfer ke Tekapo (3 jam)",
     "Lake Tekapo & Lake Pukaki",
@@ -4379,9 +12124,9 @@
    "t": "Twizel - Aoraki Mt Cook",
    "en": "TWIZEL - AORAKI MT COOK",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "incl",
-   "region": "[Twizel/Te Anau/Queenstown]",
+   "region": "[Twizel]",
    "act": [
     "Hooker Valley Track",
     "Aoraki Mt Cook & Information Centre",
@@ -4403,9 +12148,9 @@
    "t": "Twizel - Mt Cook - Te Anau",
    "en": "TWIZEL - MT COOK - TE ANAU",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "incl",
-   "region": "[Twizel/Te Anau/Queenstown]",
+   "region": "[Te Anau]",
    "act": [
     "Hooker Valley Track",
     "Aoraki Mt Cook & Information Centre",
@@ -4427,9 +12172,9 @@
    "t": "Twizel - Cromwell / Wanaka - Te Anau",
    "en": "TWIZEL - CROMWELL - TE ANAU",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "incl",
-   "region": "[Twizel/Te Anau/Queenstown]",
+   "region": "[Te Anau]",
    "act": [
     "Transfer ke Wanaka (2 jam)",
     "Lindis Pass photostop",
@@ -4450,9 +12195,9 @@
    "t": "Tekapo - Wanaka - Te Anau",
    "en": "TEKAPO - WANAKA - TE ANAU",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "incl",
-   "region": "[Twizel/Te Anau/Queenstown]",
+   "region": "[Te Anau]",
    "act": [
     "Transfer ke Wanaka",
     "Lake Wanaka",
@@ -4470,9 +12215,9 @@
    "t": "Te Anau - Milford Sound - Queenstown",
    "en": "TE ANAU - MILFORD SOUND - QUEENSTOWN",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "incl",
-   "region": "[Twizel/Te Anau/Queenstown]",
+   "region": "[Queenstown]",
    "act": [
     "Transfer ke Milford Sound (2 jam)",
     "Milford Sound Cruise (optional)",
@@ -4493,9 +12238,9 @@
    "t": "Te Anau - Milford Sound - Te Anau",
    "en": "TE ANAU - MILFORD SOUND - TE ANAU",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "incl",
-   "region": "[Twizel/Te Anau/Queenstown]",
+   "region": "[Te Anau]",
    "act": [
     "Transfer ke Milford Sound (2 jam)",
     "Milford Sound Cruise (optional)",
@@ -4514,9 +12259,9 @@
    "t": "Queenstown City Tour",
    "en": "QUEENSTOWN CITY TOUR",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "incl",
-   "region": "[Twizel/Te Anau/Queenstown]",
+   "region": "[Queenstown]",
    "act": [
     "Queenstown Central Shopping Area",
     "Lake Wakatipu",
@@ -4535,9 +12280,9 @@
    "t": "Queenstown - Glenorchy",
    "en": "QUEENSTOWN - GLENORCHY",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "incl",
-   "region": "[Twizel/Te Anau/Queenstown]",
+   "region": "[Queenstown]",
    "act": [
     "Transfer ke Glenorchy",
     "Glenorchy Wharf & View Point",
@@ -4556,9 +12301,9 @@
    "t": "Queenstown - Arrowtown",
    "en": "QUEENSTOWN - ARROWTOWN",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "incl",
-   "region": "[Twizel/Te Anau/Queenstown]",
+   "region": "[Queenstown]",
    "act": [
     "Lower Shotover Bridge",
     "Arrowtown City",
@@ -4577,9 +12322,9 @@
    "t": "Queenstown - Arrowtown - Auckland (flight domestik)",
    "en": "QUEENSTOWN - ARROWTOWN - AUCKLAND",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "dom",
-   "region": "[North Island]",
+   "region": "[Auckland]",
    "act": [
     "Lower Shotover Bridge",
     "Arrowtown City",
@@ -4599,9 +12344,9 @@
    "t": "Queenstown - Dunedin",
    "en": "QUEENSTOWN - DUNEDIN",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "incl",
-   "region": "[South Island]",
+   "region": "[Dunedin]",
    "act": [
     "Skyline Gondola Queenstown (optional)",
     "Transfer ke Dunedin",
@@ -4619,9 +12364,9 @@
    "t": "Dunedin - Timaru - Christchurch",
    "en": "DUNEDIN - TIMARU - CHRISTCHURCH",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "incl",
-   "region": "[South Island]",
+   "region": "[Christchurch]",
    "act": [
     "Transfer ke Timaru",
     "Caroline Bay Beach",
@@ -4641,7 +12386,7 @@
    "t": "Free & easy - North Island",
    "en": "FREE & EASY",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "none",
    "region": "[North Island]",
    "act": [
@@ -4657,7 +12402,7 @@
    "t": "Free & easy - South Island",
    "en": "FREE & EASY",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "none",
    "region": "[South Island]",
    "act": [
@@ -4673,7 +12418,7 @@
    "t": "Free & easy - Twizel / Te Anau / Queenstown",
    "en": "FREE & EASY",
    "acc": "incl",
-   "meal": "b",
+   "meal": "none",
    "trp": "none",
    "region": "[Twizel/Te Anau/Queenstown]",
    "act": [
@@ -4689,7 +12434,7 @@
    "t": "Hari tambahan - North Island",
    "en": "EXTENSION DAY",
    "acc": "extra",
-   "meal": "b",
+   "meal": "none",
    "trp": "ext",
    "region": "[North Island]",
    "act": [
@@ -4705,7 +12450,7 @@
    "t": "Hari tambahan - South Island",
    "en": "EXTENSION DAY",
    "acc": "extra",
-   "meal": "b",
+   "meal": "none",
    "trp": "ext",
    "region": "[South Island]",
    "act": [
@@ -4721,7 +12466,7 @@
    "t": "Hari tambahan - Twizel / Te Anau / Queenstown",
    "en": "EXTENSION DAY",
    "acc": "extra",
-   "meal": "b",
+   "meal": "none",
    "trp": "ext",
    "region": "[Twizel/Te Anau/Queenstown]",
    "act": [
@@ -4943,19 +12688,19 @@
   },
   {
    "v": "bdwel",
-   "t": "Breakfast &middot; tolak Welcome Meal ARBA",
+   "t": "Tolak Welcome Meal ARBA",
    "l": 0,
    "d": 0,
-   "lbl": "International Breakfast",
+   "lbl": "-",
    "perPax": -50,
    "line": "Welcome meal deducted"
   },
   {
    "v": "bdlun",
-   "t": "Breakfast &middot; tolak Lunch High Country Salmon Farm",
+   "t": "Tolak lunch High Country Salmon Farm",
    "l": 0,
    "d": 0,
-   "lbl": "International Breakfast",
+   "lbl": "-",
    "perPax": -50,
    "line": "Salmon Farm lunch deducted"
   }

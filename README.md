@@ -66,20 +66,40 @@ betul: 3 pax → band 2–3, 4 pax → band 3–4, 5 pax → band 4–5, 6 pax �
 `kadar?` dan baris amaran, bukan RM 0. Ia sengaja begitu untuk kadar yang memang
 tiada dalam rate sheet. Isi nombor sebenar bila PO dah dapat dari operator.
 
-### Kawasan (region)
+### Kawasan (region) &mdash; berlabuh pada BANDAR
 
 New Zealand **tiada ProdReq**, jadi kadar ikut kawasan diambil dari rate sheet
 *Simple Customisation New Zealand* (lihat tab Simple Customisation dalam KB).
+Rate sheet itu menyenaraikan accommodation ikut **bandar**, dikumpulkan dalam tiga
+kumpulan harga. Jadi `region` setiap hari ialah **bandar tempat customer bermalam**,
+bukan label pulau &mdash; kos berlabuh pada itinerary sebenar dan cip pada baris hari
+membaca "[Queenstown]", bukan "[South Island]".
 
-| Kawasan | Meliputi |
+| Kumpulan harga | Bandar dalam kumpulan itu |
 |---|---|
-| `[North Island]` | Auckland, Rotorua, Matamata, Taupo, Hamilton, Wellington |
-| `[South Island]` | Christchurch, Dunedin, Wanaka, Cromwell, Timaru, Omarama, Franz Josef |
-| `[Twizel/Te Anau/Queenstown]` | 3 lokasi ini sahaja — kadar hotel jauh lebih tinggi |
+| North Island | Auckland &middot; Rotorua &middot; Hamilton &middot; Taupo &middot; Wellington |
+| South Island | Christchurch &middot; Dunedin &middot; Wanaka &middot; Cromwell &middot; Omarama &middot; Franz Josef &middot; Timaru |
+| Twizel / Te Anau / Queenstown | Twizel &middot; Te Anau &middot; Queenstown (rate sheet: "harga **hanya** untuk 3 lokasi ini") |
+
+Contoh kesannya &mdash; malam tambahan hotel 4&#9733; CBD, musim peak:
+Auckland RM450 &middot; Christchurch RM500 &middot; Queenstown RM800 per pax per malam.
+
+Dalam `calc-config.json`, setiap kunci kadar ada satu entri bagi **setiap bandar**
+(nilai sama untuk bandar dalam kumpulan yang sama), campur tiga kunci kumpulan
+(`[North Island]`, `[South Island]`, `[Twizel/Te Anau/Queenstown]`) yang dipakai oleh
+blok "Hari tambahan" generik. Nak tukar harga satu kumpulan: tukar nilai pada
+**semua bandar** dalam kumpulan itu.
 
 - **PT** transport + driving guide: **satu kadar kebangsaan** (rate sheet tidak
-  bezakan pulau) — jadi ia duduk bawah `_default`.
-- **ST** kereta sewa: **berbeza North vs South** — jadi ia duduk bawah kawasan.
+  bezakan pulau) &mdash; jadi ia duduk bawah `_default`.
+- **ST** kereta sewa: **berbeza North vs South** &mdash; diselesaikan dari bandar hari itu.
+
+### Makan
+
+Katalog NZ **tidak** termasuk sebarang breakfast (katalog ST: "Exclude Breakfast,
+lunch and dinner"). Jadi setiap hari default `meal: "none"`, kecuali dua lunch yang
+memang tersiar dalam katalog PT: Welcome Lunch (Hari 1) dan lunch High Country
+Salmon Farm. `Breakfast` disenaraikan dalam Exclusions.
 
 ## Yang PO kena tahu
 
